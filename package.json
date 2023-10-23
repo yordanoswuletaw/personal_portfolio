@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "nuxt": "3.0.0-rc.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.7"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@heroicons/vue": "^1.0.6",
+    "@pinia/nuxt": "^0.3.1",
+    "@rollup/plugin-graphql": "^1.1.0",
+    "@vee-validate/rules": "^4.6.2",
+    "@vue/apollo-composable": "^4.0.0-alpha.19",
+    "graphql": "^16.5.0",
+    "vee-validate": "^4.6.2",
+    "vite-svg-loader": "^3.4.0",
+    "vue-apollo": "^3.1.0"
+  }
+}

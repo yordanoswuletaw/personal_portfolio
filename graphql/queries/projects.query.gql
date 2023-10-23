@@ -1,0 +1,11 @@
+query projects {
+    project(order_by: { id: desc }) {
+      id
+      ptitle
+      ptype
+      pdetail
+      plink
+      views
+      techused
+    }
+  }
